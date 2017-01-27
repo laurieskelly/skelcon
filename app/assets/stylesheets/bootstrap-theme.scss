@@ -1,0 +1,102 @@
+
+body .row h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 120px;
+}
+
+body .row h2 {
+  font-family: 'Bad Script', cursive;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+body .row h3 {
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+}
+
+body .row h4{
+  font-family: 'Bad Script', cursive;
+  font-size: 40px;
+}
+
+body .row h5{
+  font-family: 'Bangers', cursive;
+  font-size: 24px;
+}
+
+body .row h6 {
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+}
+
+body .row {
+  h1, h2, h3, h4, h5 {
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+body .row p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: auto 20px 20px;
+}
+
+body div.container div.row{
+  color: #105;
+}
+
+body div.container div.row-container#registries div.row{
+  color: #ddd;
+}
+
+nav.navbar-inverse {
+  background-color: #105;
+  border-color: #105;
+
+}
+
+body nav.navbar-inverse div.container-fluid div#navbar {
+
+  .navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover, {
+    background-color: #2d2575;
+  }
+
+}
+
+button.navbar-toggle.collapsed:hover {
+  background-color: #2d2575;
+}
+
+
+body {
+  /*background-image: url(../img/symphony.png);*/
+  background-image: url(sayagata.png);
+  /*background-image: url(../img/swirl.png);*/
+}
+
+body div.container {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}

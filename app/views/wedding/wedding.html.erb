@@ -1,0 +1,247 @@
+    <nav id="wedding-navbar" class="navbar navbar-inverse navbar-fixed-top" id="navvie">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">#SKELCON2017</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="#whenwhere">when & where</a></li>
+            <li><a href="#accommodations">accommodations</a></li>
+            <li><a href="#ourstory">our story</a></li>
+<!--             <li><a href="#registries">registries</a></li> -->
+            <!-- <li class="active"><a href="#top">❤️️</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- <div class="section-title"><p>❤️</p></div>️ -->
+      <div id="top">
+        <div class="row">
+          <div class="col-md-6">
+            <%= image_tag "laurieryan.png", width: "100%" %>
+          </div>
+          <div class="col-md-6" id="top-text">
+            <h1> Laurie and Ryan are getting married </h1>
+            <h2> June 10, 2017  </h2>
+          </div>
+        </div>
+      </div>
+
+      <div id="whenwhere" class="row-container">
+        <div class="site-section row">
+          <div class="section-title row"><p>when & where</p>
+          </div>
+          <div class="row">
+
+            <h6> 
+              Friends and family, we hope you will join our wedding festivities at the:
+            </h6>
+            <div class="spacer"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-5">
+              <h3>
+                <%= link_to "Lewis & Clark Resort", 
+                "http://www.lewisandclarkpark.com/the-resort.html", 
+                :target => "_blank" %>    
+              </h3>
+              <h4>
+                in <%= link_to "Yankton, South Dakota", 
+                "https://www.google.com/maps/place/Yankton,+SD+57078/@42.8972707,-99.6312239,7z/data=!4m5!3m4!1s0x878fa108ae6fc351:0xee31b3f3b471c413!8m2!3d42.8711088!4d-97.3972813", 
+                :target => "_blank" %> 
+              </h4>
+              <div class="spacer buffalo-spacer"></div>
+              <p> 
+                We'll be celebrating on the grounds of the <%= link_to "Lewis & Clark recreation area", "https://gfp.sd.gov/state-parks/directory/lewis-and-clark/", :target => "_blank" %>, a South Dakota state park which includes a lovely lodge (the home base of our festivities) as well as cabins, rooms, and RV and campsite facilities on the bluff-lined shores of the Missouri River. 
+              </p>
+            </div>
+
+            <div class="col-md-7">
+              <%= link_to image_tag("yanktonlodge.png", id: "yanktonlodge", class: "img-responsive"), "http://www.lewisandclarkpark.com/the-resort.html", :target => "_blank" %>
+            </div>          
+          </div>
+
+          <div class="row">
+            <div class="spacer"></div>
+
+            
+
+            <h6> Scheduled Events </h6>
+
+            <div class="col-md-6">
+              <h5>Friday</h5>
+              <p> 
+                Family, out-of-town guests, and bored locals: 
+              </p>
+              <p>
+                Please join us on Friday night the Lodge for some food and fun after the rehearsal (check back for exact time). 
+              </p>
+            </div>
+
+            <div class="col-md-6">
+              <h5>Saturday</h5>
+              <p>
+                Our ceremony festivities will begin at 4pm in the tent on the lawn at the Lodge. 
+              </p>
+              <p>
+                Dinner and reception to follow at the same location.
+              </p>
+            </div>
+          </div>  
+
+          <div class="spacer"></div>          
+          <div class="spacer buffalo-spacer"></div>
+
+          <p>
+          In our humble opinion this should be a really fantastic gathering, and we look forward to bringing all of our loved ones together for the joining of two big families each full of energy, music, and love. Bring your kids, your dogs, and your instruments if you're so inclined, and join us for a great weekend!
+          </p>
+
+          <div class="spacer"></div>
+        </div>
+      </div>
+
+      <div class="row-container" id="accommodations">
+        <div class="site-section row" >
+          <div class="section-title"><p>accommodations</p>
+          </div>
+
+          <div class="row">
+            <h3> 
+              <%= link_to "Lewis & Clark Resort", 
+                "http://www.lewisandclarkpark.com/cabin--motel-and-lodge-information.html", 
+                :target => "_blank"
+              %>
+            </h3>
+            <div class="spacer"></div>
+            <p>
+              If you want to stay at the resort, you'll enjoy staying right where all the action is in the company of many of your fellow wedding attendees. Access to the water plus a pool, rental bikes, on-site restaurant, etc. Dogs are allowed for a small fee per day. Please see the <%= link_to "website", "http://www.lewisandclarkpark.com/cabin--motel-and-lodge-information.html", :target => "_blank" %> for reservations and current rates.
+            </p>
+            <p>
+              As rooms are limited and the recreation area is a popular area summertime destination, please call them and make your reservations as soon as possible. 
+            </p>
+            <p>
+              Resort reservations call: <%= link_to '(605) 665-2680', 'tel:605-665-2680' %>
+            </p>
+            <p>
+              Our reservation number is <strong>#12722</strong> (Skelly/Connor wedding)
+            </p>
+          </div>
+          <div class="spacer buffalo-spacer"></div>
+
+          <div class="row">
+            <h3>Other area accommodations</h3>
+
+            <div class="spacer"></div>
+
+            <div class="col-md-3">
+
+              <h5> <%= link_to "Lewis & Clark campground", "http://travel.campsd.com/Campgrounds-and-RV-Parks/All/Lewis-and-Clark-Recreation-Area/Reservations", :target => "_blank" %> </h5>
+
+              <p>
+                Campsites and RV's! Same site as the resort and lodge. 
+              </p>
+
+              <p>
+                Website: <%= link_to "click here", "http://travel.campsd.com/Campgrounds-and-RV-Parks/All/Lewis-and-Clark-Recreation-Area/Reservations", :target => "_blank" %>
+              </p>
+
+              <p>
+                Phone: <%= link_to "(605) 668-2985", "tel:605-668-2985" %>
+              </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+              <h5> <%= link_to "Holiday Inn Express", "https://www.reservationcounter.com/hotels/show/215039/holiday-inn-express-and-suites-yankton/", :target => "_blank" %> </h5>
+
+              <p>A short drive from the venue with a tasty on-site restaurant</p>
+
+              <p>Website: <%= link_to "click here", "https://www.reservationcounter.com/hotels/show/215039/holiday-inn-express-and-suites-yankton/", :target => "_blank" %>
+              </p>
+
+              <p>Phone: <%= link_to "(605) 665-3177", "tel:605-665-3177" %>
+              </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+              <h5> <%= link_to "Econolodge", "https://www.choicehotels.com/south-dakota/yankton/econo-lodge-hotels/sd105", :target => "_blank" %> </h5>
+
+              <p>Another great choice, a 12-minute drive from the location</p>
+
+              <p>Website: <%= link_to "click here", "https://www.choicehotels.com/south-dakota/yankton/econo-lodge-hotels/sd105", :target => "_blank" %>
+              </p>
+
+              <p>Phone: <%= link_to "(605) 689-3400", "tel:605-689-3400" %>
+              </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+              <h5> <%= link_to "Kelly Inn", "http://www.bestwesternyankton.com/", :target => "_blank" %> </h5>
+
+              <p>A bit farther away but still only a 16 minute drive</p>
+
+              <p>Website: <%= link_to "click here", "http://www.bestwesternyankton.com/", :target => "_blank" %>
+              </p>
+
+              <p>Phone: <%= link_to "(605) 665-2906", "tel:605-665-2906" %>
+              </p>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <h6>Mention the "Skelly/Connor" wedding when you make your reservation.</h6>
+            <div class="spacer buffalo-spacer"></div>          
+
+            <div class="col-md-3 col-md-offset-2">
+              <h5> 
+                <%= link_to "airbnb", "https://www.airbnb.com/s/Yankton--SD", :target => "_blank" %> 
+              </h5>
+            </div>
+
+            <div class="col-md-3 col-md-offset-2">
+              <h5> 
+                <%= link_to "vrbo", "https://www.vrbo.com/vacation-rentals/usa/south-dakota/yankton", :target => "_blank" %> 
+              </h5>
+            </div>
+
+            <div class="spacer"></div>          
+            <div class="spacer"></div>          
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row-container" id="ourstory">
+        <div class="site-section row">
+          <div class="section-title"><p>our story</p></div>
+          <h4> coming soon... </h4>
+        </div>
+      </div>
+
+      <div class="row-container" id="registries">
+        <div class="site-section row">
+          <div class="section-title"><p>registries</p></div>
+          <h4> coming soon... </h4>
+        </div>
+      </div>
+
+
+    </div><!-- /.container -->
+

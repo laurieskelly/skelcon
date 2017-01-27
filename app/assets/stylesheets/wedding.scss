@@ -1,0 +1,97 @@
+// Place all the styles related to the Wedding controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#top {
+  text-align: center;
+}
+
+div#top-text {
+  padding: 20px;
+}
+
+body #top h2 {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+body {
+  position: relative;
+  padding-top: 80px;
+  color: #105;
+}
+
+nav.navbar {
+  min-height: 80px;
+  padding-top: 1em;
+}
+
+.site-section.row {
+  text-align: center;
+  min-height: 600px; 
+  background-color: rgba(17,0,85,.5);
+  padding: 20px;
+}
+
+#whenwhere .site-section.row {
+  background-color: rgba(13,85,0,0.3);
+}
+
+#accommodations .site-section.row {
+  background-color: transparent;
+}
+
+#registries .site-section.row {
+  background-color: #105;
+}
+
+
+.row-container {
+  padding-top: 100px;
+  margin-bottom: -100px;
+}
+
+body div#top {
+  margin-bottom: -100px;
+}
+
+body .row .section-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  p {
+    text-align: left;
+    font-family: 'Bad Script', cursive;
+    font-size: 24px;
+    padding-left: 20px;
+    color: #105;
+  }
+}
+
+body .row-container#registries .section-title p {
+  color: #ddd;
+}
+
+nav .navbar-brand {
+  font-family: 'Bangers', cursive;
+  font-size: 42px;
+}
+
+nav li {
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+}
+
+#yanktonlodge {
+  margin-top: 20px;
+}
+
+div.spacer {
+  height: 50px;
+
+  &.buffalo-spacer {
+  
+    background-image: url('buffalo');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 25px;
+  }
+}

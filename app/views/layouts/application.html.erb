@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skelcon</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Bangers|Open+Sans" rel="stylesheet">
+  </head>
+
+  <body  data-spy="scroll" data-target="#navbar">
+    <%= yield %>
+  </body>
+</html>
