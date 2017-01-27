@@ -1,0 +1,22 @@
+<%= form_for(rsvp) do |f| %>
+  <% if rsvp.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(rsvp.errors.count, "error") %> prohibited this rsvp from being saved:</h2>
+
+      <ul>
+      <% rsvp.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :response %>
+    <%= f.check_box :response %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
