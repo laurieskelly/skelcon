@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+body {
+  /*background-image: url(../img/symphony.png);*/
+  background-image: url(<%= asset_path 'sayagata.png' %>);
+  /*background-image: url(../img/swirl.png);*/
+}
+
+
 div#top-text {
   padding: 20px;
 }
@@ -89,7 +96,7 @@ div.spacer {
 
   &.buffalo-spacer {
   
-    background-image: url('buffalo');
+    background-image: url(<%= asset_path 'buffalo.png' %>);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 25px;
