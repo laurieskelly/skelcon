@@ -4,7 +4,7 @@ class RsvpResponderMailer < ApplicationMailer
 
   def rsvp_response(rsvp_object)
     @rsvp = rsvp_object
-    mail(to: "laurieskelly@gmail.com", # ry.connor@gmail.com", 
+    mail(to: "laurieskelly@gmail.com,  ry.connor@gmail.com", 
          subject: 'New RSVP!')
   end
 

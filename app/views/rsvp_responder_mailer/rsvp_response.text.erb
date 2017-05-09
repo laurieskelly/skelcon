@@ -1,7 +1,7 @@
 Oh hey! A new RSVP. 
 
-Who: <%= @rsvp.names %>
-<%= @rsvp.response %>
+Who: (M)<%= @rsvp.names %>
+Accepts/Regrets: <%= @rsvp.response.capitalize %>
 
 How many: <%= @rsvp.how_many %>
 Email: <%= @rsvp.email %>
