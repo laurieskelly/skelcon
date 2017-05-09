@@ -12,10 +12,12 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             
+            <li><a href="#rsvp">rsvp</a></li>
             <li><a href="#whenwhere">when & where</a></li>
             <li><a href="#accommodations">accommodations</a></li>
             <li><a href="#ourstory">our story</a></li>
             <li><a href="#registries">registries</a></li>
+            <li><a href="#rsvp">rsvp</a></li>
 
           </ul>
         </div><!--/.nav-collapse -->
@@ -34,6 +36,20 @@
             <h2> June 10, 2017  </h2>
           </div>
         </div>
+      </div>
+
+      <div id="rsvp" class="row-container">
+        <div class="site-section row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="panel panel-default" id="rsvp-panel">
+
+              <%= render 'form' %>
+
+              </div>
+            </div>
+
+          </div>
+        </div>          
       </div>
 
       <div id="whenwhere" class="row-container">
@@ -208,17 +224,17 @@
           <div class="row">
             <h6>Mention the "Skelly/Connor" wedding when you make your reservation.</h6>
             <div class="spacer buffalo-spacer"></div>          
-
+            <h4>Even more options!</h4>
             <div class="col-md-3 col-md-offset-2">
-              <h5> 
+              <h3> 
                 <%= link_to "airbnb", "https://www.airbnb.com/s/Yankton--SD", :target => "_blank" %> 
-              </h5>
+              </h3>
             </div>
 
             <div class="col-md-3 col-md-offset-2">
-              <h5> 
+              <h3> 
                 <%= link_to "vrbo", "https://www.vrbo.com/vacation-rentals/usa/south-dakota/yankton", :target => "_blank" %> 
-              </h5>
+              </h3>
             </div>
             </div>
             </div>
