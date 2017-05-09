@@ -41,10 +41,14 @@
       <div id="rsvp" class="row-container">
         <div class="site-section row">
             <div class="col-md-8 col-md-offset-2">
-              <div class="panel panel-default" id="rsvp-panel">
-
+              <div class="panel panel-default">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h3>RSVP</h3>
+                  </div>
+                <div class="col-md-9" id="rsvp-panel">
               <%= render 'form' %>
-
+                </div>
               </div>
             </div>
 
@@ -292,3 +296,10 @@
 
     </div><!-- /.container -->
 
+
+<script>
+$('form#new_rsvp').on('submit', function(){
+  $(this).hide()
+  $('#rsvp-panel').html('<h4>Your RSVP has been submitted. Thank you!</h4>')
+})
+</script>
