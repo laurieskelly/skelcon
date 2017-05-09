@@ -47,7 +47,13 @@
                     <h3>RSVP</h3>
                   </div>
                 <div class="col-md-9" id="rsvp-panel">
-              <%= render 'form' %>
+              
+              <% if @new==true %>
+                <%= render 'form' %>
+              <% else %>
+                <%= render 'thank_you' %>
+              <% end %>
+
                 </div>
               </div>
             </div>
@@ -297,9 +303,3 @@
     </div><!-- /.container -->
 
 
-<script>
-$('form#new_rsvp').on('submit', function(){
-  $(this).hide()
-  $('#rsvp-panel').html('<h4>Your RSVP has been submitted. Thank you!</h4>')
-})
-</script>

@@ -10,7 +10,11 @@ class RsvpsController < ActionController::Base
     if @rsvp.save
       # Tell the UserMailer to send a welcome email after save
       RsvpResponderMailer.rsvp_response(@rsvp).deliver_later
+      session[:made_rsvp] = true
+      redirect_to root_url
     end
+
+
   end
 
-end
+end 
