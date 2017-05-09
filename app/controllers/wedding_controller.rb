@@ -1,4 +1,5 @@
-class WeddingController < ApplicationController
+class WeddingController < ActionController::Base
   def wedding
   end
+
 end

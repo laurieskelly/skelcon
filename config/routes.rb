@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   root 'wedding#wedding'
 
+  post "/" => "rsvp#create", :as => :create_rsvp
+
 end
