@@ -1,4 +1,4 @@
-class WeddingController < ActionController::Base
+class WeddingController < ApplicationController
   def wedding
     puts 'lalalala'
     puts session[:made_rsvp]
