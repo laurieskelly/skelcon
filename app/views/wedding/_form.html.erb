@@ -1,6 +1,3 @@
-
-    
-
                   <%= form_for @rsvp, url: create_rsvp_path do |f| %>
                     <div class="form-group input-group input-group-lg">
                       <span class="input-group-addon" id="name-input-addon">M</span>
@@ -21,7 +18,6 @@
                       <label for="regrets_button" class="btn btn-default">
                       <%= f.radio_button :response, "regrets", :id=>"regrets_button", :style=>"display:none" %>
                       Regrets</label>
-
                     </div>
 
                     <div class="row">
@@ -41,6 +37,4 @@
                         </div>
                       </div>
                     </div>
-
                   <% end %> 
-

@@ -1,4 +1,4 @@
-class WeddingController < ApplicationController
+class WeddingController < ActionController::Base
   def wedding
     puts 'lalalala'
     puts session[:made_rsvp]
@@ -10,4 +10,5 @@ class WeddingController < ApplicationController
     @rsvp = Rsvp.new
     session[:made_rsvp] = false
   end
+
 end

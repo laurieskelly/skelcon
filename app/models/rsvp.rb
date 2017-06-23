@@ -1,2 +1,2 @@
-class Rsvp < ApplicationRecord
+class Rsvp < ActiveRecord::Base
 end
