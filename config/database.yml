@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: skelcon_production
-  username: skelcon
-  password: <%= ENV['SKELCON_DATABASE_PASSWORD'] %>
+  username: rails
+  password: <%= ENV['APP_DATABASE_PASSWORD'] %>
